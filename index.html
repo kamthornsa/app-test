@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ===== แก้ไขจุดที่ 1 : เปลี่ยนข้อความใน <title> เป็นชื่อของตนเอง ===== -->
+  <title>Profile Card - ตัวอย่าง นักศึกษา</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="card">
+
+    <div class="card__avatar">
+      <!-- ===== แก้ไขจุดที่ 2 : เปลี่ยนเป็นอักษรย่อชื่อ-นามสกุลของตนเอง เช่น KS ===== -->
+      <span>XX</span>
+    </div>
+
+    <!-- ===== แก้ไขจุดที่ 3 : เปลี่ยนเป็นชื่อ-นามสกุลจริงของตนเอง ===== -->
+    <h1 class="card__name">ตัวอย่าง นักศึกษา</h1>
+
+    <!-- ===== แก้ไขจุดที่ 4 : เปลี่ยนเป็นข้อความแนะนำตัวสั้น ๆ 1 ประโยค ===== -->
+    <p class="card__tagline">ข้อความแนะนำตัวสั้น ๆ ของฉันอยู่ตรงนี้</p>
+
+    <hr class="card__divider">
+
+    <dl class="card__info">
+
+      <div class="info-row">
+        <dt>รหัสนักศึกษา</dt>
+        <!-- ===== แก้ไขจุดที่ 5 : เปลี่ยนเป็นรหัสนักศึกษาของตนเอง ===== -->
+        <dd>000000000000</dd>
+      </div>
+
+      <div class="info-row">
+        <dt>สาขาวิชา</dt>
+        <!-- ===== แก้ไขจุดที่ 6 : เปลี่ยนเป็นสาขาวิชาของตนเอง ===== -->
+        <dd>ระบุสาขาวิชาที่นี่</dd>
+      </div>
+
+      <div class="info-row">
+        <dt>ชั้นปี</dt>
+        <!-- ===== แก้ไขจุดที่ 7 : เปลี่ยนเป็นชั้นปีของตนเอง ===== -->
+        <dd>0</dd>
+      </div>
+
+    </dl>
+
+    <h2 class="card__subtitle">ทักษะที่สนใจ</h2>
+
+    <!-- ===== แก้ไขจุดที่ 8 : เปลี่ยนทั้ง 3 รายการเป็นทักษะที่ตนเองสนใจจริง ===== -->
+    <ul class="skill-list">
+      <li>ทักษะที่ 1</li>
+      <li>ทักษะที่ 2</li>
+      <li>ทักษะที่ 3</li>
+    </ul>
+
+    <!-- ===== แก้ไขจุดที่ 9 : เปลี่ยน href และข้อความให้เป็นบัญชี GitHub ของตนเอง ===== -->
+    <a class="card__link" href="https://github.com/your-username" target="_blank" rel="noopener">
+      github.com/your-username
+    </a>
+
+  </main>
+
+  <footer class="page-footer">
+    <!-- ===== แก้ไขจุดที่ 10 : เปลี่ยนชื่อในบรรทัดนี้เป็นชื่อของตนเอง ===== -->
+    <p>&copy; 2026 ตัวอย่าง นักศึกษา</p>
+  </footer>
+
+</body>
+</html>
