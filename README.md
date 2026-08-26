@@ -1,4 +1,4 @@
-# test-app1
+# app-test
 
 โปรเจกต์ตัวอย่างสำหรับใบงานปฏิบัติ **Git, GitHub และ GitHub Pages**
 เป็นหน้าเว็บ Profile Card แบบ static ประกอบด้วยไฟล์ HTML และ CSS เท่านั้น
